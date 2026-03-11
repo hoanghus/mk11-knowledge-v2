@@ -8,7 +8,9 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       <AppSidebar />
       <SidebarInset>
         <SiteHeader />
-        <main className="px-4 py-6 md:px-6">{children}</main>
+        <main className="px-4 py-6 md:px-6">
+          <div className="mx-auto w-full max-w-[1400px]">{children}</div>
+        </main>
       </SidebarInset>
     </SidebarProvider>
   )
