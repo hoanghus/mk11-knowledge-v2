@@ -1,14 +1,16 @@
+import { FrameDataTableClient } from "@/components/frame-data/frame-data-table-client"
 import { listFrameMoves } from "@/lib/content"
-import { PageTemplate } from "@/components/shared/page-template"
 
 export default async function FrameDataPage() {
   const frameMoves = await listFrameMoves()
 
   return (
-    <PageTemplate
-      title="Frame Data"
-      description={`${frameMoves.length} frame rows loaded from JSON dataset.`}
-      note="Next: TanStack Table + search/filter/sort semantics for startup/on-block/on-hit."
-    />
+    <section className="mx-auto w-full max-w-6xl space-y-4">
+      <div className="space-y-1">
+        <h1 className="text-3xl font-bold tracking-tight">Frame Data</h1>
+        <p className="text-muted-foreground">Tool page with search/filter/sort ready for practical lookup.</p>
+      </div>
+      <FrameDataTableClient rows={frameMoves} />
+    </section>
   )
 }
