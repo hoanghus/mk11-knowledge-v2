@@ -98,8 +98,8 @@ export function CombosTableClient({ rows }: { rows: Combo[] }) {
         </Select>
       </div>
 
-      <div className="rounded-md border">
-        <Table>
+      <div className="overflow-x-auto rounded-md border">
+        <Table className="min-w-[880px]">
           <TableHeader>
             <TableRow>
               <TableHead>Character</TableHead>
@@ -114,9 +114,9 @@ export function CombosTableClient({ rows }: { rows: Combo[] }) {
           <TableBody>
             {filtered.length ? (
               filtered.map((row) => (
-                <TableRow key={row.id}>
-                  <TableCell>{row.character}</TableCell>
-                  <TableCell>{row.title}</TableCell>
+                <TableRow key={row.id} className="align-top">
+                  <TableCell className="whitespace-nowrap font-medium">{row.character}</TableCell>
+                  <TableCell className="max-w-[220px]">{row.title}</TableCell>
                   <TableCell className="font-mono text-xs md:text-sm">{row.notation}</TableCell>
                   <TableCell>{row.bars}</TableCell>
                   <TableCell>{row.position}</TableCell>

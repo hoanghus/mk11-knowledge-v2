@@ -10,8 +10,8 @@ export default async function LearnPage() {
   return (
     <section className="mx-auto w-full max-w-5xl space-y-4">
       <div className="space-y-1">
-        <h1 className="text-3xl font-bold tracking-tight">Learn</h1>
-        <p className="text-muted-foreground">{lessons.length} lessons loaded from MDX content.</p>
+        <h1 className="text-2xl font-bold tracking-tight md:text-3xl">Learn</h1>
+        <p className="text-sm text-muted-foreground md:text-base">{lessons.length} lessons loaded from MDX content.</p>
       </div>
       <div className="grid gap-3">
         {lessons.map((lesson) => (

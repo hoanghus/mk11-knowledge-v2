@@ -9,8 +9,8 @@ export default async function CharactersPage() {
   return (
     <section className="mx-auto w-full max-w-5xl space-y-4">
       <div className="space-y-1">
-        <h1 className="text-3xl font-bold tracking-tight">Characters</h1>
-        <p className="text-muted-foreground">{characters.length} characters loaded from MDX content.</p>
+        <h1 className="text-2xl font-bold tracking-tight md:text-3xl">Characters</h1>
+        <p className="text-sm text-muted-foreground md:text-base">{characters.length} characters loaded from MDX content.</p>
       </div>
       <div className="grid gap-3 md:grid-cols-2">
         {characters.map((character) => (

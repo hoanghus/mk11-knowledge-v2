@@ -66,7 +66,7 @@ export function MatchupsListClient({ rows }: { rows: Matchup[] }) {
 
       <div className="grid gap-3">
         {filtered.map((matchup) => (
-          <Card key={matchup.slug}>
+          <Card key={matchup.slug} className="transition-colors hover:bg-muted/30">
             <CardHeader>
               <CardTitle>
                 <Link className="hover:underline" href={`/matchups/${matchup.slug}`}>

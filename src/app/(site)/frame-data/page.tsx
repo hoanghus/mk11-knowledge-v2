@@ -7,8 +7,8 @@ export default async function FrameDataPage() {
   return (
     <section className="mx-auto w-full max-w-6xl space-y-4">
       <div className="space-y-1">
-        <h1 className="text-3xl font-bold tracking-tight">Frame Data</h1>
-        <p className="text-muted-foreground">Tool page with search/filter/sort ready for practical lookup.</p>
+        <h1 className="text-2xl font-bold tracking-tight md:text-3xl">Frame Data</h1>
+        <p className="text-sm text-muted-foreground md:text-base">Tool page with search/filter/sort ready for practical lookup.</p>
       </div>
       <FrameDataTableClient rows={frameMoves} />
     </section>
