@@ -22,6 +22,16 @@ export async function parseMdxFrontmatter<T>(filePath: string): Promise<T> {
   return parsed.data as T
 }
 
+export async function parseMdxFile<T>(filePath: string): Promise<{ data: T; content: string }> {
+  const raw = await fs.readFile(filePath, "utf8")
+  const parsed = matter(raw)
+
+  return {
+    data: parsed.data as T,
+    content: parsed.content,
+  }
+}
+
 export async function readJsonFile<T>(filePath: string): Promise<T> {
   const raw = await fs.readFile(filePath, "utf8")
   return JSON.parse(raw) as T
