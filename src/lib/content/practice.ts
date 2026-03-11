@@ -14,3 +14,8 @@ export async function listPracticeDrills(): Promise<PracticeDrill[]> {
 
   return data.sort((a, b) => a.title.localeCompare(b.title))
 }
+
+export async function listPracticeForCharacter(character: string): Promise<PracticeDrill[]> {
+  const rows = await listPracticeDrills()
+  return rows.filter((row) => row.relatedCharacters?.includes(character))
+}

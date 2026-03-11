@@ -60,6 +60,10 @@ Generated outputs:
 - `migration/maps/lessons-map.json`
 - `migration/cleaned/summary.json`
 
+Supporting docs:
+- `docs-migration-notes.md`
+- `docs-content-authoring-guide.md`
+
 ## Status
 
 Current phase completed:

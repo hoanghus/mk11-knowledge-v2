@@ -13,3 +13,8 @@ export async function listCombos(): Promise<Combo[]> {
   const parsed = await readJsonFile<unknown>(file)
   return combosSchema.parse(parsed)
 }
+
+export async function listCombosByCharacter(character: string): Promise<Combo[]> {
+  const rows = await listCombos()
+  return rows.filter((row) => row.character === character)
+}

@@ -19,3 +19,8 @@ export async function getMatchupBySlug(slug: string): Promise<Matchup | null> {
   const matchups = await listMatchups()
   return matchups.find((item) => item.slug === slug) ?? null
 }
+
+export async function listMatchupsForCharacter(character: string): Promise<Matchup[]> {
+  const rows = await listMatchups()
+  return rows.filter((row) => row.characterA === character || row.characterB === character)
+}

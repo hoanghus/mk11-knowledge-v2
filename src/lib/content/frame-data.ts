@@ -12,3 +12,8 @@ export async function listFrameMoves(): Promise<FrameMove[]> {
   const parsed = await readJsonFile<unknown>(file)
   return frameMovesSchema.parse(parsed)
 }
+
+export async function listFrameMovesByCharacter(character: string): Promise<FrameMove[]> {
+  const rows = await listFrameMoves()
+  return rows.filter((row) => row.character === character)
+}
