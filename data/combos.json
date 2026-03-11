@@ -1,0 +1,15 @@
+[
+  {
+    "id": "scorpion-bnb-01",
+    "character": "scorpion",
+    "title": "Midscreen BnB",
+    "notation": "F3,2 xx Spear, JI2, 1,1 xx Takedown",
+    "starter": "F3,2",
+    "damage": 286,
+    "bars": 0,
+    "position": "midscreen",
+    "difficulty": "easy",
+    "tags": ["bnb", "meterless"],
+    "notes": "Ổn định cho người mới."
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "scorpion-f3",
+    "character": "scorpion",
+    "move": "F3",
+    "command": "F3",
+    "type": "mid",
+    "startup": 13,
+    "recovery": 20,
+    "onBlock": -4,
+    "onHit": 14,
+    "tags": ["safe", "poke"]
+  }
+]

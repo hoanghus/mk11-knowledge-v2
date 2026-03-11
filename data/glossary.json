@@ -1,0 +1,10 @@
+[
+  {
+    "slug": "whiff-punish",
+    "term": "Whiff Punish",
+    "shortDefinition": "Trừng phạt đòn của đối thủ khi họ đánh trượt.",
+    "fullDefinition": "Whiff punish là hành động đứng ngoài tầm đòn đối thủ, chờ họ đánh hụt rồi phản công ngay trong recovery.",
+    "relatedTerms": ["spacing", "neutral"],
+    "tags": ["fundamentals"]
+  }
+]
