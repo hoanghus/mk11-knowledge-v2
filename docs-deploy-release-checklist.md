@@ -36,7 +36,13 @@ git push origin <branch>
 
 ## 4) Smoke test after deploy
 
-Check these routes:
+Quick automated smoke:
+
+```bash
+node scripts/smoke-prod-check.mjs > migration/cleaned/prod-smoke-report.json
+```
+
+Then check these routes manually:
 
 - `/`
 - `/learn`

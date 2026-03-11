@@ -1,0 +1,66 @@
+{
+  "base": "https://mk11-knowledge-v2.vercel.app",
+  "checkedAt": "2026-03-11T08:56:39.311Z",
+  "report": [
+    {
+      "route": "/",
+      "status": 200,
+      "ok": true,
+      "ms": 255
+    },
+    {
+      "route": "/learn",
+      "status": 200,
+      "ok": true,
+      "ms": 131
+    },
+    {
+      "route": "/learn/l0-movement-basics",
+      "status": 200,
+      "ok": true,
+      "ms": 684
+    },
+    {
+      "route": "/characters",
+      "status": 200,
+      "ok": true,
+      "ms": 652
+    },
+    {
+      "route": "/characters/scorpion",
+      "status": 200,
+      "ok": true,
+      "ms": 343
+    },
+    {
+      "route": "/combos",
+      "status": 200,
+      "ok": true,
+      "ms": 1273
+    },
+    {
+      "route": "/frame-data",
+      "status": 200,
+      "ok": true,
+      "ms": 67
+    },
+    {
+      "route": "/practice",
+      "status": 200,
+      "ok": true,
+      "ms": 571
+    },
+    {
+      "route": "/glossary",
+      "status": 200,
+      "ok": true,
+      "ms": 990
+    },
+    {
+      "route": "/search?q=scorpion",
+      "status": 200,
+      "ok": true,
+      "ms": 380
+    }
+  ]
+}
