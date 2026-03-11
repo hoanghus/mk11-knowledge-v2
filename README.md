@@ -42,6 +42,28 @@ pnpm build
 - `src/lib/content/*` for loaders/parsers
 - `src/lib/schemas/*` for typed schema validation
 
+## Migration helper
+
+Run migration from the old codebase (`../mk11-giao-an`):
+
+```bash
+node scripts/migrate-from-mk11-giao-an.mjs
+```
+
+Generated outputs:
+- `content/lessons/*`
+- `content/characters/*`
+- `data/characters.json`
+- `data/combos.json`
+- `data/frame-data.json`
+- `migration/raw/*`
+- `migration/maps/lessons-map.json`
+- `migration/cleaned/summary.json`
+
 ## Status
 
-This commit is **Phase 1**: scaffold + IA + skeleton routes + shadcn foundation.
+Current phase completed:
+- Scaffold + IA + shadcn foundation
+- Typed schema/content loaders
+- Unified search index (V1)
+- Initial migration pipeline from old project data

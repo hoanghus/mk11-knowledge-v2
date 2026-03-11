@@ -1,0 +1,853 @@
+[
+  {
+    "slug": "baraka",
+    "name": "Baraka",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "An elite warrior of the Tarkatan race and one of the most violently driven members of the Mortal Kombat Franchise",
+    "strengths": [
+      "Damage 10/10",
+      "Grappling 6/10",
+      "Zoning 5/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "baraka"
+    ],
+    "published": true
+  },
+  {
+    "slug": "cassie-cage",
+    "name": "Cassie Cage",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Cassandra Carlton (Cassie) Cage debuted in the  Mortal Kombat X",
+    "strengths": [
+      "Range 7/10",
+      "Zoning 6/10",
+      "Mobility 5/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "cassie-cage"
+    ],
+    "published": true
+  },
+  {
+    "slug": "cetrion",
+    "name": "Cetrion",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Cetrion's powers stem from Nature",
+    "strengths": [
+      "Zoning 10/10",
+      "Mobility 9/10",
+      "Range 9/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "cetrion"
+    ],
+    "published": true
+  },
+  {
+    "slug": "d-vorah",
+    "name": "D'Vorah",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "A collection of bugs with sharp appendages and a brutal conviction to survive, D'vorah is an intriguing character in the franchise",
+    "strengths": [
+      "Range 10/10",
+      "Zoning 5/10",
+      "Damage 4/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "d-vorah"
+    ],
+    "published": true
+  },
+  {
+    "slug": "erron-black",
+    "name": "Erron Black",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Rugged Gunslinger, a cowboy outside of his time",
+    "strengths": [
+      "Damage 7/10",
+      "Grappling 6/10",
+      "Zoning 5/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "erron-black"
+    ],
+    "published": true
+  },
+  {
+    "slug": "frost",
+    "name": "Frost",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "A former apprentice of Sub-Zero",
+    "strengths": [
+      "Range 7/10",
+      "Zoning 6/10",
+      "Mobility 4/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "frost"
+    ],
+    "published": true
+  },
+  {
+    "slug": "fujin",
+    "name": "Fujin",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Fujin's name comes from the Japanese religion",
+    "strengths": [
+      "Mobility 10/10",
+      "Range 7/10",
+      "Zoning 6/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "fujin"
+    ],
+    "published": true
+  },
+  {
+    "slug": "geras",
+    "name": "Geras",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Geras is a newcomer to the Mortal Kombat Franchise",
+    "strengths": [
+      "Grappling 8/10",
+      "Zoning 7/10",
+      "Mobility 6/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "geras"
+    ],
+    "published": true
+  },
+  {
+    "slug": "jacqui-briggs",
+    "name": "Jacqui Briggs",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Jacqui Briggs is the daughter of military veteran Jax Briggs",
+    "strengths": [
+      "Mobility 8/10",
+      "Range 8/10",
+      "Damage 7/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "jacqui-briggs"
+    ],
+    "published": true
+  },
+  {
+    "slug": "jade",
+    "name": "Jade",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Jade quickly became a very charismatic MK character",
+    "strengths": [
+      "Range 7/10",
+      "Zoning 7/10",
+      "Mobility 6/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "jade"
+    ],
+    "published": true
+  },
+  {
+    "slug": "jax",
+    "name": "Jax",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Jackson Briggs has been part of almost every single entry in the Mortal Kombat Franchise",
+    "strengths": [
+      "Grappling 9/10",
+      "Mobility 6/10",
+      "Range 4/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "jax"
+    ],
+    "published": true
+  },
+  {
+    "slug": "john-rambo",
+    "name": "John Rambo",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "A hardened united states special forces veteran",
+    "strengths": [
+      "Grappling 7/10",
+      "Zoning 5/10",
+      "Mobility 4/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "john-rambo"
+    ],
+    "published": true
+  },
+  {
+    "slug": "johnny-cage",
+    "name": "Johnny Cage",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Jonathan Carlton (Johnny Cage) - father, actor, hero, commandos, and husband, shows and proves by personal example how important it is to participate in raising his own children because his daughter saved him from imprisonment",
+    "strengths": [
+      "Range 8/10",
+      "Mobility 7/10",
+      "Zoning 7/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "johnny-cage"
+    ],
+    "published": true
+  },
+  {
+    "slug": "kabal",
+    "name": "Kabal",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Armed with a pair of Hooksaws and able to achieve superhuman speeds, Kabal is stuck between alliances with very few people to trust",
+    "strengths": [
+      "Range 8/10",
+      "Damage 8/10",
+      "Mobility 7/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "kabal"
+    ],
+    "published": true
+  },
+  {
+    "slug": "kano",
+    "name": "Kano",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "A brutal murderer with a twisted sense of humor",
+    "strengths": [
+      "Grappling 9/10",
+      "Range 6/10",
+      "Zoning 6/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "kano"
+    ],
+    "published": true
+  },
+  {
+    "slug": "kitana",
+    "name": "Kitana",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Kitana is a highly trained fighter who wields steel fans",
+    "strengths": [
+      "Zoning 7/10",
+      "Range 5/10",
+      "Damage 5/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "kitana"
+    ],
+    "published": true
+  },
+  {
+    "slug": "kollector",
+    "name": "Kollector",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "The only Naknada representation within the Mortal Kombat roster, Kollector is a loyal subject of Shao Khan",
+    "strengths": [
+      "Damage 7/10",
+      "Range 6/10",
+      "Grappling 6/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "kollector"
+    ],
+    "published": true
+  },
+  {
+    "slug": "kotal-kahn",
+    "name": "Kotal Kahn",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Kotal native name is Ko'atal",
+    "strengths": [
+      "Range 10/10",
+      "Grappling 10/10",
+      "Damage 9/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "kotal-kahn"
+    ],
+    "published": true
+  },
+  {
+    "slug": "kung-lao",
+    "name": "Kung Lao",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Kung Lao is well-armed with a razor-sharp hat",
+    "strengths": [
+      "Mobility 7/10",
+      "Damage 7/10",
+      "Grappling 7/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "kung-lao"
+    ],
+    "published": true
+  },
+  {
+    "slug": "liu-kang",
+    "name": "Liu Kang",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Liu Kang is the central character of the entire universe of Mortal Kombat",
+    "strengths": [
+      "Zoning 9/10",
+      "Mobility 7/10",
+      "Grappling 6/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "liu-kang"
+    ],
+    "published": true
+  },
+  {
+    "slug": "mileena",
+    "name": "Mileena",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "For most intents and purposes, Mileena is the undisputed queen of the outworld, and maybe the whole Mortal Kombat franchise",
+    "strengths": [
+      "Mobility 7/10",
+      "Zoning 7/10",
+      "Grappling 6/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "mileena"
+    ],
+    "published": true
+  },
+  {
+    "slug": "nightwolf",
+    "name": "Nightwolf",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Nightwolf (Grey Cloud) is, at a glance, a very stereotypical Native American hero, but throughout the various games, he has developed into a more nuanced and interesting character",
+    "strengths": [
+      "Grappling 7/10",
+      "Mobility 6/10",
+      "Range 6/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "nightwolf"
+    ],
+    "published": true
+  },
+  {
+    "slug": "noob-saibot",
+    "name": "Noob Saibot",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Bi-Han, or Noob Saibot as he is most commonly known is a corrupted soul given a new opportunity in the land of the living",
+    "strengths": [
+      "Damage 10/10",
+      "Range 8/10",
+      "Zoning 5/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "noob-saibot"
+    ],
+    "published": true
+  },
+  {
+    "slug": "raiden",
+    "name": "Raiden",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "\"This guy is wearing a cool hat",
+    "strengths": [
+      "Mobility 8/10",
+      "Range 7/10",
+      "Damage 5/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "raiden"
+    ],
+    "published": true
+  },
+  {
+    "slug": "rain",
+    "name": "Rain",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "The prince of Edenia, Rain is the adopted son of Argus, a powerful god in the Outworld",
+    "strengths": [
+      "Mobility 10/10",
+      "Zoning 6/10",
+      "Grappling 6/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "rain"
+    ],
+    "published": true
+  },
+  {
+    "slug": "robocop",
+    "name": "RoboCop",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Alex James Murphy, aka Crime Prevention Unit 001, aka RoboCop",
+    "strengths": [
+      "Zoning 9/10",
+      "Grappling 7/10",
+      "Mobility 3/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "robocop"
+    ],
+    "published": true
+  },
+  {
+    "slug": "scorpion",
+    "name": "Scorpion",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Scorpion is the iconic MK character",
+    "strengths": [
+      "Mobility 9/10",
+      "Range 7/10",
+      "Damage 7/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "scorpion"
+    ],
+    "published": true
+  },
+  {
+    "slug": "shang-tsung",
+    "name": "Shang Tsung",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Shang Tsung is a sorcerer seeking as much power and control as he can achieve",
+    "strengths": [
+      "Zoning 10/10",
+      "Range 7/10",
+      "Grappling 5/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "shang-tsung"
+    ],
+    "published": true
+  },
+  {
+    "slug": "shao-kahn",
+    "name": "Shao Kahn",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Shao Kahn (Shao Khan) is one of the first bosses in the Mortal Kombat fighting game series",
+    "strengths": [
+      "Damage 9/10",
+      "Range 8/10",
+      "Mobility 5/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "shao-kahn"
+    ],
+    "published": true
+  },
+  {
+    "slug": "sheeva",
+    "name": "Sheeva",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Sheeva stands at 6'8\" ft (203",
+    "strengths": [
+      "Zoning 8/10",
+      "Grappling 8/10",
+      "Mobility 5/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "sheeva"
+    ],
+    "published": true
+  },
+  {
+    "slug": "sindel",
+    "name": "Sindel",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Sindel is the queen of Edenia, and wife of Shao Khan",
+    "strengths": [
+      "Range 8/10",
+      "Damage 7/10",
+      "Mobility 5/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "sindel"
+    ],
+    "published": true
+  },
+  {
+    "slug": "skarlet",
+    "name": "Skarlet",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "A masterful blood magician, Skarlet is one of the many adopted daughters of Shao Khan and another of his experiments",
+    "strengths": [
+      "Range 9/10",
+      "Zoning 9/10",
+      "Mobility 5/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "skarlet"
+    ],
+    "published": true
+  },
+  {
+    "slug": "sonya",
+    "name": "Sonya",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Sonya A",
+    "strengths": [
+      "Zoning 9/10",
+      "Damage 9/10",
+      "Mobility 7/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "sonya"
+    ],
+    "published": true
+  },
+  {
+    "slug": "spawn",
+    "name": "Spawn",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "A Comics superhero from the early 90', Spawn was a solo Comic for Image Comics",
+    "strengths": [
+      "Range 10/10",
+      "Damage 10/10",
+      "Zoning 7/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "spawn"
+    ],
+    "published": true
+  },
+  {
+    "slug": "sub-zero",
+    "name": "Sub-Zero",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "Sub-Zero is one of the most famous characters in the Mortal Kombat universe",
+    "strengths": [
+      "Mobility 7/10",
+      "Range 6/10",
+      "Damage 6/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "sub-zero"
+    ],
+    "published": true
+  },
+  {
+    "slug": "terminator-t-800",
+    "name": "Terminator T-800",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "T-800 is a cyborg created to destroy a leader of humanity's resistance for the rebellious military-industrial artificial intelligence",
+    "strengths": [
+      "Grappling 9/10",
+      "Damage 5/10",
+      "Mobility 3/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "terminator-t-800"
+    ],
+    "published": true
+  },
+  {
+    "slug": "the-joker",
+    "name": "The Joker",
+    "difficulty": "medium",
+    "archetypes": [
+      "fundamentals"
+    ],
+    "summary": "A crazy clown who wanted to assert himself at the expense of the whole city",
+    "strengths": [
+      "Range 9/10",
+      "Mobility 7/10",
+      "Zoning 6/10"
+    ],
+    "weaknesses": [
+      "Cần matchup knowledge",
+      "Cần spacing và timing ổn định"
+    ],
+    "tags": [
+      "mk11",
+      "the-joker"
+    ],
+    "published": true
+  }
+]

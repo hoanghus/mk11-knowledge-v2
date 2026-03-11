@@ -1,0 +1,42 @@
+---
+slug: l8-max-value-punish
+title: "Max-Value Punish Routing"
+summary: "Tối đa EV mỗi cơ hội"
+category: punish
+difficulty: advanced
+tags:
+  - punish
+  - advanced
+published: true
+order: 808
+---
+
+# Max-Value Punish Routing
+
+- **Level:** 8
+- **Module:** Punish
+- **Estimate:** 17 phút
+- **Slug:** `l8-max-value-punish`
+
+## Objective
+
+Tối đa EV mỗi cơ hội
+
+## Explanation
+
+Xây decision tree punish theo vị trí, meter và máu còn lại.
+
+## Checklist
+
+- Decision tree 3 nhánh
+- Drill từng nhánh
+- Áp dụng đúng ngữ cảnh
+
+## Quiz bank (4 câu)
+
+### Q1. Bạn có 2 punish route: A gây 30% + corner, B gây 34% nhưng reset neutral. Trong kịch bản đang dẫn nhẹ và còn 25 giây, nên chọn:\n\n   A. B vì damage cao hơn\n   B. A vì giá trị vị trí + clock pressure cao hơn tổng damage thô\n   C. Ngẫu nhiên để khó đoán\n   D. Không punish để giữ an toàn\n\n<details>\n<summary>Instructor mode: xem đáp án & giải thích</summary>\n\n- **Đáp án đề xuất:** A vì giá trị vị trí + clock pressure cao hơn tổng damage thô\n- **Giải thích:** Max value punish là tối đa giá trị trạng thái trận, không chỉ tối đa phần trăm máu.\n</details>\n\n### Q2. Khi đang thua máu và cần comeback, tiêu chí chọn punish tối ưu nhất là:\n\n   A. Route khó nhất có thể\n   B. Route mở oki hoặc setup vòng áp lực tiếp theo có xác suất thắng round cao\n   C. Route tiết kiệm meter bằng mọi giá\n   D. Chỉ dùng throw punish\n\n<details>\n<summary>Instructor mode: xem đáp án & giải thích</summary>\n\n- **Đáp án đề xuất:** Route mở oki hoặc setup vòng áp lực tiếp theo có xác suất thắng round cao\n- **Giải thích:** Giá trị punish phải gắn với win condition hiện tại (comeback hay bảo toàn lead).\n</details>\n\n### Q3. Vì sao bảng 'value tree punish' cần tách theo thời gian còn lại?\n\n   A. Để bảng dài hơn\n   B. Vì cùng một punish có EV khác nhau ở 60 giây và 8 giây\n   C. Vì combo cuối trận dễ đẹp hơn\n   D. Không cần tách, damage là đủ\n\n<details>\n<summary>Instructor mode: xem đáp án & giải thích</summary>\n\n- **Đáp án đề xuất:** Vì cùng một punish có EV khác nhau ở 60 giây và 8 giây\n- **Giải thích:** Clock thay đổi lợi tức của vị trí, oki và rủi ro trao lượt nên phải được mô hình hoá riêng.\n</details>\n\n### Q4. Dấu hiệu bạn đã làm chủ max-value punish là:\n\n   A. Damage trung bình mỗi combo tăng\n   B. Quyết định punish nhất quán theo trạng thái máu/meter/clock và giảm pha ném lead\n   C. Bạn thuộc nhiều route hơn\n   D. Số giờ lab tăng mạnh\n\n<details>\n<summary>Instructor mode: xem đáp án & giải thích</summary>\n\n- **Đáp án đề xuất:** Quyết định punish nhất quán theo trạng thái máu/meter/clock và giảm pha ném lead\n- **Giải thích:** L8 đo chất lượng quyết định ngữ cảnh, không chỉ năng lực thực hiện route rời rạc.\n</details>
+
+## Practice link
+
+- [Mở lesson trong app](/lessons/l8-max-value-punish)
+- [Mở quiz](/lessons/l8-max-value-punish/quiz)

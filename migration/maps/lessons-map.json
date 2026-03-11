@@ -1,0 +1,317 @@
+[
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l0-block-high-low.mdx",
+    "to": "content/lessons/defense/l0-block-high-low.mdx",
+    "slug": "l0-block-high-low",
+    "category": "defense",
+    "level": 0
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l0-controls-layout.mdx",
+    "to": "content/lessons/fundamentals/l0-controls-layout.mdx",
+    "slug": "l0-controls-layout",
+    "category": "fundamentals",
+    "level": 0
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l0-footsie-distance.mdx",
+    "to": "content/lessons/neutral/l0-footsie-distance.mdx",
+    "slug": "l0-footsie-distance",
+    "category": "neutral",
+    "level": 0
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l0-movement-basics.mdx",
+    "to": "content/lessons/fundamentals/l0-movement-basics.mdx",
+    "slug": "l0-movement-basics",
+    "category": "fundamentals",
+    "level": 0
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l0-tilt-control.mdx",
+    "to": "content/lessons/fundamentals/l0-tilt-control.mdx",
+    "slug": "l0-tilt-control",
+    "category": "fundamentals",
+    "level": 0
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l1-anti-air-reaction.mdx",
+    "to": "content/lessons/defense/l1-anti-air-reaction.mdx",
+    "slug": "l1-anti-air-reaction",
+    "category": "defense",
+    "level": 1
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l1-hit-confirm-lite.mdx",
+    "to": "content/lessons/fundamentals/l1-hit-confirm-lite.mdx",
+    "slug": "l1-hit-confirm-lite",
+    "category": "fundamentals",
+    "level": 1
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l1-opponent-note-template.mdx",
+    "to": "content/lessons/matchup-theory/l1-opponent-note-template.mdx",
+    "slug": "l1-opponent-note-template",
+    "category": "matchup-theory",
+    "level": 1
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l1-pokes-turns.mdx",
+    "to": "content/lessons/neutral/l1-pokes-turns.mdx",
+    "slug": "l1-pokes-turns",
+    "category": "neutral",
+    "level": 1
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l1-punish-unsafe-special.mdx",
+    "to": "content/lessons/punish/l1-punish-unsafe-special.mdx",
+    "slug": "l1-punish-unsafe-special",
+    "category": "punish",
+    "level": 1
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l2-adapt-first-to-3.mdx",
+    "to": "content/lessons/fundamentals/l2-adapt-first-to-3.mdx",
+    "slug": "l2-adapt-first-to-3",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l2-bnb-mid-screen.mdx",
+    "to": "content/lessons/fundamentals/l2-bnb-mid-screen.mdx",
+    "slug": "l2-bnb-mid-screen",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l2-corner-carry.mdx",
+    "to": "content/lessons/neutral/l2-corner-carry.mdx",
+    "slug": "l2-corner-carry",
+    "category": "neutral",
+    "level": 2
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l2-flawless-block-intro.mdx",
+    "to": "content/lessons/defense/l2-flawless-block-intro.mdx",
+    "slug": "l2-flawless-block-intro",
+    "category": "defense",
+    "level": 2
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l2-punish-10f-check.mdx",
+    "to": "content/lessons/punish/l2-punish-10f-check.mdx",
+    "slug": "l2-punish-10f-check",
+    "category": "punish",
+    "level": 2
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l3-breakaway-counterplay.mdx",
+    "to": "content/lessons/defense/l3-breakaway-counterplay.mdx",
+    "slug": "l3-breakaway-counterplay",
+    "category": "defense",
+    "level": 3
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l3-common-zoner-matchup.mdx",
+    "to": "content/lessons/matchup-theory/l3-common-zoner-matchup.mdx",
+    "slug": "l3-common-zoner-matchup",
+    "category": "matchup-theory",
+    "level": 3
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l3-punish-kb-route.mdx",
+    "to": "content/lessons/punish/l3-punish-kb-route.mdx",
+    "slug": "l3-punish-kb-route",
+    "category": "punish",
+    "level": 3
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l3-stagger-pressure.mdx",
+    "to": "content/lessons/fundamentals/l3-stagger-pressure.mdx",
+    "slug": "l3-stagger-pressure",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l3-whiff-punish-core.mdx",
+    "to": "content/lessons/neutral/l3-whiff-punish-core.mdx",
+    "slug": "l3-whiff-punish-core",
+    "category": "neutral",
+    "level": 3
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l4-character-tool-priority.mdx",
+    "to": "content/lessons/fundamentals/l4-character-tool-priority.mdx",
+    "slug": "l4-character-tool-priority",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l4-corner-defense.mdx",
+    "to": "content/lessons/defense/l4-corner-defense.mdx",
+    "slug": "l4-corner-defense",
+    "category": "defense",
+    "level": 4
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l4-mid-screen-reset.mdx",
+    "to": "content/lessons/neutral/l4-mid-screen-reset.mdx",
+    "slug": "l4-mid-screen-reset",
+    "category": "neutral",
+    "level": 4
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l4-no-tilt-defense.mdx",
+    "to": "content/lessons/fundamentals/l4-no-tilt-defense.mdx",
+    "slug": "l4-no-tilt-defense",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l4-punish-throw-tech-read.mdx",
+    "to": "content/lessons/punish/l4-punish-throw-tech-read.mdx",
+    "slug": "l4-punish-throw-tech-read",
+    "category": "punish",
+    "level": 4
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l5-defensive-option-select.mdx",
+    "to": "content/lessons/defense/l5-defensive-option-select.mdx",
+    "slug": "l5-defensive-option-select",
+    "category": "defense",
+    "level": 5
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l5-main-breadth-check.mdx",
+    "to": "content/lessons/fundamentals/l5-main-breadth-check.mdx",
+    "slug": "l5-main-breadth-check",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l5-matchup-plan-sheet.mdx",
+    "to": "content/lessons/matchup-theory/l5-matchup-plan-sheet.mdx",
+    "slug": "l5-matchup-plan-sheet",
+    "category": "matchup-theory",
+    "level": 5
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l5-meter-optimize-punish.mdx",
+    "to": "content/lessons/punish/l5-meter-optimize-punish.mdx",
+    "slug": "l5-meter-optimize-punish",
+    "category": "punish",
+    "level": 5
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l5-stagger-vs-mash.mdx",
+    "to": "content/lessons/neutral/l5-stagger-vs-mash.mdx",
+    "slug": "l5-stagger-vs-mash",
+    "category": "neutral",
+    "level": 5
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l6-advanced-footsies.mdx",
+    "to": "content/lessons/neutral/l6-advanced-footsies.mdx",
+    "slug": "l6-advanced-footsies",
+    "category": "neutral",
+    "level": 6
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l6-defensive-adaptation.mdx",
+    "to": "content/lessons/defense/l6-defensive-adaptation.mdx",
+    "slug": "l6-defensive-adaptation",
+    "category": "defense",
+    "level": 6
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l6-reversal-bait.mdx",
+    "to": "content/lessons/punish/l6-reversal-bait.mdx",
+    "slug": "l6-reversal-bait",
+    "category": "punish",
+    "level": 6
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l6-review-discipline.mdx",
+    "to": "content/lessons/fundamentals/l6-review-discipline.mdx",
+    "slug": "l6-review-discipline",
+    "category": "fundamentals",
+    "level": 6
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l6-secondary-pocket.mdx",
+    "to": "content/lessons/matchup-theory/l6-secondary-pocket.mdx",
+    "slug": "l6-secondary-pocket",
+    "category": "matchup-theory",
+    "level": 6
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l7-clutch-neutral.mdx",
+    "to": "content/lessons/neutral/l7-clutch-neutral.mdx",
+    "slug": "l7-clutch-neutral",
+    "category": "neutral",
+    "level": 7
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l7-counterpick-matrix.mdx",
+    "to": "content/lessons/matchup-theory/l7-counterpick-matrix.mdx",
+    "slug": "l7-counterpick-matrix",
+    "category": "matchup-theory",
+    "level": 7
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l7-defense-clock-management.mdx",
+    "to": "content/lessons/defense/l7-defense-clock-management.mdx",
+    "slug": "l7-defense-clock-management",
+    "category": "defense",
+    "level": 7
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l7-punish-under-pressure.mdx",
+    "to": "content/lessons/punish/l7-punish-under-pressure.mdx",
+    "slug": "l7-punish-under-pressure",
+    "category": "punish",
+    "level": 7
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l7-tournament-warmup.mdx",
+    "to": "content/lessons/fundamentals/l7-tournament-warmup.mdx",
+    "slug": "l7-tournament-warmup",
+    "category": "fundamentals",
+    "level": 7
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l8-defense-risk-balance.mdx",
+    "to": "content/lessons/defense/l8-defense-risk-balance.mdx",
+    "slug": "l8-defense-risk-balance",
+    "category": "defense",
+    "level": 8
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l8-long-set-adaptation.mdx",
+    "to": "content/lessons/matchup-theory/l8-long-set-adaptation.mdx",
+    "slug": "l8-long-set-adaptation",
+    "category": "matchup-theory",
+    "level": 8
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l8-max-value-punish.mdx",
+    "to": "content/lessons/punish/l8-max-value-punish.mdx",
+    "slug": "l8-max-value-punish",
+    "category": "punish",
+    "level": 8
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l8-meta-neutral-model.mdx",
+    "to": "content/lessons/neutral/l8-meta-neutral-model.mdx",
+    "slug": "l8-meta-neutral-model",
+    "category": "neutral",
+    "level": 8
+  },
+  {
+    "from": "../mk11-giao-an/apps/web/content/lessons/l8-precision-execution.mdx",
+    "to": "content/lessons/fundamentals/l8-precision-execution.mdx",
+    "slug": "l8-precision-execution",
+    "category": "fundamentals",
+    "level": 8
+  }
+]
