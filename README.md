@@ -18,6 +18,8 @@ pnpm install
 pnpm dev
 pnpm lint
 pnpm build
+pnpm qa:content
+pnpm release:check
 ```
 
 ## Route scaffold
@@ -63,6 +65,7 @@ Generated outputs:
 Supporting docs:
 - `docs-migration-notes.md`
 - `docs-content-authoring-guide.md`
+- `docs-deploy-release-checklist.md`
 
 ## Status
 

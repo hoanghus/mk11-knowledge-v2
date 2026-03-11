@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "qa:content": "node scripts/qa-content-check.mjs",
+    "check": "pnpm lint && pnpm build && pnpm qa:content",
+    "release:check": "bash scripts/release-check.sh"
   },
   "dependencies": {
     "@base-ui/react": "^1.2.0",
