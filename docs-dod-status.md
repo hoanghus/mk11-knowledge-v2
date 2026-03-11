@@ -1,4 +1,4 @@
-# V1 DoD Status (current)
+# V1 DoD Status (updated)
 
 ## ✅ Completed
 
@@ -14,19 +14,26 @@
 - Practical tool pages:
   - Combos filters
   - Frame data filters/sort/search
+  - Matchup filter/search index
   - Unified search page
 - Legacy migration pipeline scripted and reproducible
 - QA content check script and report (`migration/cleaned/qa-report.json`)
+- Production smoke test report (`migration/cleaned/prod-smoke-report.json`)
 
-## ⚠️ Remaining polish for strict “production-ready DoD”
+## Current data footprint
 
-- Matchup corpus is still thin (few pages populated from legacy source)
-- Frame-data advanced semantic fields (startup/on-block/on-hit) are sparse in source and need curation
-- Character detail sections are structurally complete but still need manual curation for high-quality gameplan text
+- Lessons: 45
+- Characters: 37
+- Matchups: 217
+- Combos: 868
+- Frame rows: 3039
 
-## Suggested next final mile
+## ⚠️ Remaining for quality (Round 2+)
 
-1. Curate/add matchup pages for top common pairings
-2. Curate key move semantics per main characters
-3. Final visual polish pass (spacing/typography/mobile micro-adjustments)
-4. Deploy and smoke-test on production target
+- Matchup pages đã đủ số lượng nhưng nhiều trang vẫn ở mức template baseline; cần curate sâu top kèo quan trọng.
+- Frame-data advanced semantics (startup/on-block/on-hit) vẫn thiếu ở nhiều row do hạn chế nguồn gốc dữ liệu.
+- Character gameplan/punish text cần viết thủ công để thành coaching-quality.
+
+## Next step
+
+- Follow `docs-round2-curation-plan.md` và `migration/cleaned/top20-matchups-round2.json` để curate theo batch.

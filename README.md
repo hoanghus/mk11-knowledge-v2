@@ -66,6 +66,8 @@ Supporting docs:
 - `docs-migration-notes.md`
 - `docs-content-authoring-guide.md`
 - `docs-deploy-release-checklist.md`
+- `docs-dod-status.md`
+- `docs-round2-curation-plan.md`
 
 ## Status
 
