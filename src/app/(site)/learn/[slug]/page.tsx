@@ -22,23 +22,23 @@ export default async function LessonDetailPage({ params }: { params: Promise<{ s
     .slice(0, 4)
 
   return (
-    <section className="mx-auto grid w-full max-w-6xl gap-4 lg:grid-cols-[1fr_280px]">
-      <article className="space-y-4">
-        <div className="rounded-xl border bg-card/40 p-4 md:p-6">
-          <h1 className="text-2xl font-bold tracking-tight md:text-3xl">{lesson.title}</h1>
-          <p className="mt-2 text-sm text-muted-foreground md:text-base">{lesson.summary}</p>
-          <div className="mt-3 flex flex-wrap gap-2">
+    <section className="mx-auto grid w-full max-w-6xl gap-6 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-8">
+      <article className="space-y-6">
+        <div className="rounded-2xl border bg-card/60 p-5 shadow-sm md:p-7">
+          <h1 className="text-2xl font-semibold tracking-tight md:text-4xl">{lesson.title}</h1>
+          <p className="mt-3 max-w-3xl text-sm leading-7 text-muted-foreground md:text-base">{lesson.summary}</p>
+          <div className="mt-4 flex flex-wrap gap-2">
             <Badge variant="outline">{lesson.category}</Badge>
             <Badge variant="secondary">{lesson.difficulty}</Badge>
             <Badge variant="outline">~{lesson.readingMinutes} min read</Badge>
           </div>
         </div>
 
-        <Card>
-          <CardHeader>
-            <CardTitle className="text-base">Lesson content</CardTitle>
+        <Card className="border-border/80 shadow-sm">
+          <CardHeader className="pb-3">
+            <CardTitle className="text-base font-semibold">Lesson content</CardTitle>
           </CardHeader>
-          <CardContent>
+          <CardContent className="pt-0">
             <div className="prose prose-invert max-w-none text-sm leading-7 md:text-base">
               <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSlug]}>
                 {lesson.content}
@@ -47,11 +47,11 @@ export default async function LessonDetailPage({ params }: { params: Promise<{ s
           </CardContent>
         </Card>
 
-        <Card>
-          <CardHeader>
-            <CardTitle className="text-base">Related lessons</CardTitle>
+        <Card className="border-border/80 shadow-sm">
+          <CardHeader className="pb-3">
+            <CardTitle className="text-base font-semibold">Related lessons</CardTitle>
           </CardHeader>
-          <CardContent className="space-y-2 text-sm">
+          <CardContent className="space-y-3 pt-0 text-sm">
             {related.length ? (
               related.map((item) => (
                 <p key={item.slug}>
@@ -68,15 +68,15 @@ export default async function LessonDetailPage({ params }: { params: Promise<{ s
       </article>
 
       <aside className="space-y-4 lg:sticky lg:top-20 lg:h-fit">
-        <Card>
-          <CardHeader>
-            <CardTitle className="text-base">Table of contents</CardTitle>
+        <Card className="border-border/80 shadow-sm">
+          <CardHeader className="pb-3">
+            <CardTitle className="text-base font-semibold">Table of contents</CardTitle>
           </CardHeader>
-          <CardContent className="space-y-1 text-sm">
+          <CardContent className="space-y-2 pt-0 text-sm">
             {lesson.headings.length ? (
               lesson.headings.map((item) => (
                 <p key={`${item.depth}-${item.slug}`} className={item.depth === 3 ? "pl-3 text-muted-foreground" : ""}>
-                  <a className="hover:underline" href={`#${item.slug}`}>
+                  <a className="inline-block leading-6 hover:underline" href={`#${item.slug}`}>
                     {item.text}
                   </a>
                 </p>
@@ -87,11 +87,11 @@ export default async function LessonDetailPage({ params }: { params: Promise<{ s
           </CardContent>
         </Card>
 
-        <Card>
-          <CardHeader>
-            <CardTitle className="text-base">Practice checklist</CardTitle>
+        <Card className="border-border/80 shadow-sm">
+          <CardHeader className="pb-3">
+            <CardTitle className="text-base font-semibold">Practice checklist</CardTitle>
           </CardHeader>
-          <CardContent className="space-y-1 text-sm text-muted-foreground">
+          <CardContent className="space-y-2 pt-0 text-sm text-muted-foreground">
             <p>• Hoàn thành ít nhất 2 drill chính của lesson.</p>
             <p>• Ghi 3 lỗi lặp lại khi vào set thử.</p>
             <p>• Mục tiêu buổi sau: 1 điểm cụ thể để cải thiện.</p>

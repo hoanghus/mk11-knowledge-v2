@@ -29,11 +29,11 @@ export default async function CharacterDetailPage({ params }: { params: Promise<
   const keyMoves = frameMoves.slice(0, 12)
 
   return (
-    <section className="mx-auto w-full max-w-6xl space-y-4">
-      <div className="space-y-2">
-        <h1 className="text-3xl font-bold tracking-tight">{data.name}</h1>
-        <p className="text-muted-foreground">{data.summary}</p>
-        <div className="flex flex-wrap gap-2">
+    <section className="mx-auto w-full max-w-6xl space-y-6">
+      <div className="rounded-2xl border bg-card/60 p-5 shadow-sm md:p-7">
+        <h1 className="text-3xl font-semibold tracking-tight md:text-4xl">{data.name}</h1>
+        <p className="mt-3 max-w-3xl text-sm leading-7 text-muted-foreground md:text-base">{data.summary}</p>
+        <div className="mt-4 flex flex-wrap gap-2">
           <Badge variant="secondary">{data.difficulty}</Badge>
           {data.archetypes.map((item) => (
             <Badge key={item} variant="outline">
@@ -43,8 +43,8 @@ export default async function CharacterDetailPage({ params }: { params: Promise<
         </div>
       </div>
 
-      <Tabs defaultValue="overview" className="space-y-4">
-        <TabsList className="flex w-full flex-wrap justify-start gap-2 h-auto">
+      <Tabs defaultValue="overview" className="space-y-5">
+        <TabsList className="flex h-auto w-full flex-wrap justify-start gap-2 rounded-xl border bg-muted/40 p-1">
           <TabsTrigger value="overview">Overview</TabsTrigger>
           <TabsTrigger value="gameplan">Gameplan</TabsTrigger>
           <TabsTrigger value="key-moves">Key Moves</TabsTrigger>
@@ -53,32 +53,32 @@ export default async function CharacterDetailPage({ params }: { params: Promise<
           <TabsTrigger value="practice">Practice</TabsTrigger>
         </TabsList>
 
-        <TabsContent value="overview" className="grid gap-3 md:grid-cols-3">
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-base">Strengths</CardTitle>
+        <TabsContent value="overview" className="grid gap-4 md:grid-cols-3">
+          <Card className="border-border/80 shadow-sm">
+            <CardHeader className="pb-3">
+              <CardTitle className="text-base font-semibold">Strengths</CardTitle>
             </CardHeader>
-            <CardContent className="space-y-1 text-sm text-muted-foreground">
+            <CardContent className="space-y-2 pt-0 text-sm text-muted-foreground">
               {data.strengths.map((item) => (
                 <p key={item}>• {item}</p>
               ))}
             </CardContent>
           </Card>
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-base">Weaknesses</CardTitle>
+          <Card className="border-border/80 shadow-sm">
+            <CardHeader className="pb-3">
+              <CardTitle className="text-base font-semibold">Weaknesses</CardTitle>
             </CardHeader>
-            <CardContent className="space-y-1 text-sm text-muted-foreground">
+            <CardContent className="space-y-2 pt-0 text-sm text-muted-foreground">
               {data.weaknesses.map((item) => (
                 <p key={item}>• {item}</p>
               ))}
             </CardContent>
           </Card>
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-base">Quick links</CardTitle>
+          <Card className="border-border/80 shadow-sm">
+            <CardHeader className="pb-3">
+              <CardTitle className="text-base font-semibold">Quick links</CardTitle>
             </CardHeader>
-            <CardContent className="space-y-2 text-sm">
+            <CardContent className="space-y-3 pt-0 text-sm">
               <p>
                 <Link className="underline underline-offset-4" href={`/combos?character=${character}`}>
                   Open combos for {data.slug}
