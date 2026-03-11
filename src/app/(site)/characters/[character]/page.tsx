@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { notFound } from "next/navigation"
 
 import {
@@ -52,7 +53,7 @@ export default async function CharacterDetailPage({ params }: { params: Promise<
           <TabsTrigger value="practice">Practice</TabsTrigger>
         </TabsList>
 
-        <TabsContent value="overview" className="grid gap-3 md:grid-cols-2">
+        <TabsContent value="overview" className="grid gap-3 md:grid-cols-3">
           <Card>
             <CardHeader>
               <CardTitle className="text-base">Strengths</CardTitle>
@@ -71,6 +72,26 @@ export default async function CharacterDetailPage({ params }: { params: Promise<
               {data.weaknesses.map((item) => (
                 <p key={item}>• {item}</p>
               ))}
+            </CardContent>
+          </Card>
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-base">Quick links</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-2 text-sm">
+              <p>
+                <Link className="underline underline-offset-4" href={`/combos?character=${character}`}>
+                  Open combos for {data.slug}
+                </Link>
+              </p>
+              <p>
+                <Link className="underline underline-offset-4" href={`/frame-data?character=${character}`}>
+                  Open frame data for {data.slug}
+                </Link>
+              </p>
+              <p className="text-muted-foreground">
+                Matchups: <span className="font-medium text-foreground">{matchups.length}</span>
+              </p>
             </CardContent>
           </Card>
         </TabsContent>

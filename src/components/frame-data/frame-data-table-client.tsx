@@ -34,10 +34,16 @@ function passesQuickFilter(row: FrameMove, quick: string) {
   return true
 }
 
-export function FrameDataTableClient({ rows }: { rows: FrameMove[] }) {
+export function FrameDataTableClient({
+  rows,
+  initialCharacter = "all",
+}: {
+  rows: FrameMove[]
+  initialCharacter?: string
+}) {
   const [sorting, setSorting] = React.useState<SortingState>([{ id: "startup", desc: false }])
   const [query, setQuery] = React.useState("")
-  const [character, setCharacter] = React.useState("all")
+  const [character, setCharacter] = React.useState(initialCharacter)
   const [moveType, setMoveType] = React.useState("all")
   const [quickFilter, setQuickFilter] = React.useState("all")
 
@@ -45,6 +51,10 @@ export function FrameDataTableClient({ rows }: { rows: FrameMove[] }) {
     () => ["all", ...Array.from(new Set(rows.map((r) => r.character))).sort()],
     [rows],
   )
+
+  React.useEffect(() => {
+    if (!characters.includes(character)) setCharacter("all")
+  }, [characters, character])
 
   const filtered = React.useMemo(() => {
     const q = query.trim().toLowerCase()

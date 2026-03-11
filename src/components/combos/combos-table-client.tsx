@@ -14,9 +14,15 @@ import {
 } from "@/components/ui/select"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 
-export function CombosTableClient({ rows }: { rows: Combo[] }) {
+export function CombosTableClient({
+  rows,
+  initialCharacter = "all",
+}: {
+  rows: Combo[]
+  initialCharacter?: string
+}) {
   const [query, setQuery] = React.useState("")
-  const [character, setCharacter] = React.useState("all")
+  const [character, setCharacter] = React.useState(initialCharacter)
   const [bars, setBars] = React.useState("all")
   const [position, setPosition] = React.useState("all")
   const [difficulty, setDifficulty] = React.useState("all")
@@ -25,6 +31,10 @@ export function CombosTableClient({ rows }: { rows: Combo[] }) {
     () => ["all", ...Array.from(new Set(rows.map((r) => r.character))).sort()],
     [rows],
   )
+
+  React.useEffect(() => {
+    if (!characters.includes(character)) setCharacter("all")
+  }, [characters, character])
 
   const filtered = React.useMemo(() => {
     const q = query.trim().toLowerCase()

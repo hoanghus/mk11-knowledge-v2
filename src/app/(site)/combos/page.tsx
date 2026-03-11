@@ -1,8 +1,13 @@
 import { CombosTableClient } from "@/components/combos/combos-table-client"
 import { listCombos } from "@/lib/content"
 
-export default async function CombosPage() {
+type CombosPageProps = {
+  searchParams: Promise<{ character?: string }>
+}
+
+export default async function CombosPage({ searchParams }: CombosPageProps) {
   const combos = await listCombos()
+  const { character = "all" } = await searchParams
 
   return (
     <section className="mx-auto w-full max-w-6xl space-y-4">
@@ -11,7 +16,7 @@ export default async function CombosPage() {
         <p className="text-sm text-muted-foreground md:text-base">Lookup combos by character, meter, position, and difficulty.</p>
       </div>
 
-      <CombosTableClient rows={combos} />
+      <CombosTableClient rows={combos} initialCharacter={character} />
     </section>
   )
 }

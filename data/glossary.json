@@ -3,8 +3,176 @@
     "slug": "whiff-punish",
     "term": "Whiff Punish",
     "shortDefinition": "Trừng phạt đòn của đối thủ khi họ đánh trượt.",
-    "fullDefinition": "Whiff punish là hành động đứng ngoài tầm đòn đối thủ, chờ họ đánh hụt rồi phản công ngay trong recovery.",
+    "fullDefinition": "Whiff punish là đứng ngoài tầm đòn đối thủ, chờ họ đánh hụt rồi phản công trong recovery.",
     "relatedTerms": ["spacing", "neutral"],
     "tags": ["fundamentals"]
+  },
+  {
+    "slug": "neutral",
+    "term": "Neutral",
+    "shortDefinition": "Giai đoạn hai bên tranh vị trí, chưa ai có pressure rõ ràng.",
+    "fullDefinition": "Neutral là trạng thái chưa ai nắm lượt rõ, quyết định thắng thua nằm ở spacing, nhịp di chuyển và lựa chọn button.",
+    "tags": ["fundamentals"]
+  },
+  {
+    "slug": "spacing",
+    "term": "Spacing",
+    "shortDefinition": "Quản lý khoảng cách để đòn của bạn trúng và đòn đối thủ hụt.",
+    "fullDefinition": "Spacing tốt giúp bạn đánh ở tầm có lợi: đòn đối thủ khó chạm, còn bạn có thể check hoặc whiff punish an toàn.",
+    "tags": ["fundamentals"]
+  },
+  {
+    "slug": "footsies",
+    "term": "Footsies",
+    "shortDefinition": "Cuộc đấu trí ở tầm trung bằng di chuyển và normal.",
+    "fullDefinition": "Footsies là dùng walk, micro-step và normal để tranh lane ở neutral, khiến đối thủ whiff hoặc mất lượt.",
+    "tags": ["neutral"]
+  },
+  {
+    "slug": "anti-air",
+    "term": "Anti-Air",
+    "shortDefinition": "Đòn/chuỗi dùng để chặn đối thủ nhảy vào.",
+    "fullDefinition": "Anti-air ổn định buộc đối thủ tôn trọng mặt đất, giúp bạn kiểm soát neutral và giảm rủi ro coin-flip trên không.",
+    "tags": ["defense"]
+  },
+  {
+    "slug": "hit-confirm",
+    "term": "Hit Confirm",
+    "shortDefinition": "Xác nhận đòn trúng rồi mới vào combo/commit tiếp.",
+    "fullDefinition": "Hit confirm giúp bạn giảm rủi ro: trúng thì chuyển thành damage, bị block thì dừng ở điểm an toàn.",
+    "tags": ["fundamentals"]
+  },
+  {
+    "slug": "frame-data",
+    "term": "Frame Data",
+    "shortDefinition": "Thông số khung hình của từng move.",
+    "fullDefinition": "Frame data gồm startup, active, recovery, on block/on hit. Đây là nền để biết move nào an toàn, move nào punish được.",
+    "tags": ["system"]
+  },
+  {
+    "slug": "startup",
+    "term": "Startup",
+    "shortDefinition": "Số frame từ lúc bấm đến lúc hitbox xuất hiện.",
+    "fullDefinition": "Startup càng thấp thì đòn càng nhanh. So sánh startup giúp chọn đúng đòn check trong nhịp cận chiến.",
+    "tags": ["frame-data"]
+  },
+  {
+    "slug": "recovery",
+    "term": "Recovery",
+    "shortDefinition": "Thời gian hồi sau khi đòn kết thúc.",
+    "fullDefinition": "Recovery dài khiến bạn dễ bị punish khi đòn whiff hoặc bị block trong tình huống bất lợi.",
+    "tags": ["frame-data"]
+  },
+  {
+    "slug": "on-block",
+    "term": "On Block",
+    "shortDefinition": "Lợi/bất lợi frame khi đòn bị block.",
+    "fullDefinition": "On block âm lớn thường punish được. On block dương thường giúp giữ lượt.",
+    "tags": ["frame-data"]
+  },
+  {
+    "slug": "plus-frames",
+    "term": "Plus Frames",
+    "shortDefinition": "Bạn hồi trước đối thủ sau khi họ block.",
+    "fullDefinition": "Khi có plus frames, bạn tiếp tục gây áp lực an toàn hơn vì đối thủ hành động chậm hơn bạn.",
+    "tags": ["offense"]
+  },
+  {
+    "slug": "punishable",
+    "term": "Punishable",
+    "shortDefinition": "Move âm đủ lớn để đối thủ phản công chắc chắn.",
+    "fullDefinition": "Move punishable thường có on block âm nặng hoặc recovery lớn. Cần luyện punish route ổn định để lấy value.",
+    "tags": ["punish"]
+  },
+  {
+    "slug": "stagger",
+    "term": "Stagger",
+    "shortDefinition": "Dừng chuỗi sớm để bẫy phản ứng của đối thủ.",
+    "fullDefinition": "Stagger dùng để phá nhịp phòng thủ của đối thủ, tạo cơ hội throw/frame trap hoặc lấy lại nhịp tấn công.",
+    "tags": ["offense"]
+  },
+  {
+    "slug": "frame-trap",
+    "term": "Frame Trap",
+    "shortDefinition": "Dùng khoảng frame để bắt đối thủ bấm nút chen.",
+    "fullDefinition": "Frame trap hiệu quả khi đối thủ thiếu kiên nhẫn. Bạn tạo khoảng hở nhỏ tưởng như có thể chen, nhưng thực tế bị counter-hit.",
+    "tags": ["offense"]
+  },
+  {
+    "slug": "safe-jump",
+    "term": "Safe Jump",
+    "shortDefinition": "Setup nhảy vào vừa gây áp lực vừa giảm rủi ro ăn reversal.",
+    "fullDefinition": "Safe jump là timing nhảy khiến bạn kịp block nếu đối thủ reversal, nhưng vẫn tiếp tục áp lực nếu họ phòng thủ.",
+    "tags": ["oki"]
+  },
+  {
+    "slug": "oki",
+    "term": "Oki",
+    "shortDefinition": "Tình huống áp lực khi đối thủ vừa đứng dậy.",
+    "fullDefinition": "Oki là lớp quyết định sau knockdown: meaty, throw, shimmy, bait reversal... giúp bạn duy trì momentum.",
+    "tags": ["offense"]
+  },
+  {
+    "slug": "shimmy",
+    "term": "Shimmy",
+    "shortDefinition": "Giả áp sát rồi lùi nhẹ để câu throw tech/đòn whiff.",
+    "fullDefinition": "Shimmy hiệu quả khi đối thủ hay mash throw tech. Bạn tạo cảm giác áp lực, rồi lùi đúng tầm để phản công.",
+    "tags": ["offense"]
+  },
+  {
+    "slug": "knockdown",
+    "term": "Knockdown",
+    "shortDefinition": "Hạ đối thủ xuống đất, tạo cơ hội oki.",
+    "fullDefinition": "Knockdown giúp bạn điều khiển nhịp kế tiếp. Tùy kèo, value của knockdown có thể cao hơn damage tức thời.",
+    "tags": ["system"]
+  },
+  {
+    "slug": "corner-carry",
+    "term": "Corner Carry",
+    "shortDefinition": "Đẩy đối thủ về góc qua combo/chuỗi pressure.",
+    "fullDefinition": "Corner carry tạo lợi thế vị trí lớn vì đối thủ mất không gian lùi và bị ép đoán nhiều hơn.",
+    "tags": ["offense"]
+  },
+  {
+    "slug": "setplay",
+    "term": "Setplay",
+    "shortDefinition": "Chuỗi setup đã chuẩn hóa để tái dùng sau knockdown/hit.",
+    "fullDefinition": "Setplay là các tình huống được luyện sẵn để tái tạo liên tục, giảm phụ thuộc vào cảm tính trong trận.",
+    "tags": ["offense"]
+  },
+  {
+    "slug": "counter-hit",
+    "term": "Counter Hit",
+    "shortDefinition": "Đòn trúng đúng lúc đối thủ đang bấm nút.",
+    "fullDefinition": "Counter hit thường cho lợi thế thêm frame hoặc route combo tốt hơn, nên rất quan trọng trong frame trap và footsies.",
+    "tags": ["system"]
+  },
+  {
+    "slug": "meter-management",
+    "term": "Meter Management",
+    "shortDefinition": "Quản lý tài nguyên bar cho damage, escape và kill confirm.",
+    "fullDefinition": "Quản lý meter tốt giúp bạn tối ưu EV theo trạng thái round: giữ bar để ổn định hay dùng bar để đóng round.",
+    "tags": ["resource"]
+  },
+  {
+    "slug": "adaptation",
+    "term": "Adaptation",
+    "shortDefinition": "Điều chỉnh plan theo thói quen đối thủ qua từng game/round.",
+    "fullDefinition": "Adaptation là lõi của set dài: đọc pattern, đổi nhịp, và khóa dần lựa chọn mạnh của đối thủ.",
+    "tags": ["matchup"]
+  },
+  {
+    "slug": "risk-reward",
+    "term": "Risk-Reward",
+    "shortDefinition": "So sánh rủi ro và lợi nhuận của một quyết định.",
+    "fullDefinition": "Trong thi đấu, quyết định đúng không phải lúc nào cũng damage cao nhất mà là EV cao nhất theo bối cảnh round.",
+    "tags": ["mindset"]
+  },
+  {
+    "slug": "check",
+    "term": "Check",
+    "shortDefinition": "Đòn nhanh dùng để chặn bước tiến hoặc test phản ứng đối thủ.",
+    "fullDefinition": "Check đúng lúc giúp giữ neutral sạch, cắt đà dash-in và giảm việc đối thủ vào tầm miễn phí.",
+    "tags": ["neutral"]
   }
 ]
