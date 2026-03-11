@@ -74,7 +74,9 @@ export function MatchupsListClient({ rows }: { rows: Matchup[] }) {
                 </Link>
               </CardTitle>
             </CardHeader>
-            <CardContent className="text-sm text-muted-foreground">{matchup.summary}</CardContent>
+            <CardContent className="text-sm text-muted-foreground">
+              <p className="line-clamp-2">{matchup.summary}</p>
+            </CardContent>
           </Card>
         ))}
       </div>
