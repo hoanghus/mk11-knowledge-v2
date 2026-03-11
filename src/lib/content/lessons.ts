@@ -16,3 +16,8 @@ export async function listLessons(): Promise<Lesson[]> {
     .filter((item) => item.published)
     .sort((a, b) => (a.order ?? 999) - (b.order ?? 999) || a.title.localeCompare(b.title))
 }
+
+export async function getLessonBySlug(slug: string): Promise<Lesson | null> {
+  const lessons = await listLessons()
+  return lessons.find((item) => item.slug === slug) ?? null
+}

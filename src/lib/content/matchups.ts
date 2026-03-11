@@ -14,3 +14,8 @@ export async function listMatchups(): Promise<Matchup[]> {
 
   return data.filter((item) => item.published).sort((a, b) => a.title.localeCompare(b.title))
 }
+
+export async function getMatchupBySlug(slug: string): Promise<Matchup | null> {
+  const matchups = await listMatchups()
+  return matchups.find((item) => item.slug === slug) ?? null
+}

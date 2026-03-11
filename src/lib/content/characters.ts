@@ -14,3 +14,8 @@ export async function listCharacters(): Promise<Character[]> {
 
   return data.filter((item) => item.published).sort((a, b) => a.name.localeCompare(b.name))
 }
+
+export async function getCharacterBySlug(slug: string): Promise<Character | null> {
+  const characters = await listCharacters()
+  return characters.find((item) => item.slug === slug) ?? null
+}
